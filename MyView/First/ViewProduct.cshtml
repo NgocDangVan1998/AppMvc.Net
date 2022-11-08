@@ -1,0 +1,15 @@
+﻿@model AppMvc.Net.Models.ProductModel
+
+@{
+    Layout = "_layout";
+}
+
+<div class="card bg-warning text-white">
+    <h1 class="card-header">Xin chào @Model.Name</h1>
+    <div class="card-body">
+        <p class="card-text">Gia san pham:@Model.Price </p>
+    </div>
+</div>
+<hr />
+
+@this.Path
